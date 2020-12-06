@@ -2,13 +2,85 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Melissa Zhang</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top pt-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="home.html">MELISSA ZHANG</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pl-4"> 
+                    <a class="nav-link active" href="about.html">about<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pl-4"> 
+                    <a class="nav-link active" href="">projects<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pl-4"> 
+                    <a class="nav-link active" href="resume.html">resume<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class='navbar-background'></div>
+    <!-- INTRO -->
+    <div class="intro-container container-fluid">
+        <div class="row mx-5 px-5 pb-5">
+            <div class="col-7 pl-5 d-flex align-items-center">
+                <div>
+                    <h1>Hi, I'm Melissa</h1>
+                    <h5>a student at Brown studying Computer Science & International Relations</h5>
+                    <h5>a designer + software engineer with a passion for sustainability and health</h5>
+                    <h5>a firm believer in tech for social good</h5>
+                </div>
+            </div>
+            <div class="col-5 d-flex align-items-center justify-content-center">
+                <img class='profile-image' src='./images/profile.jpg'/>
+            </div>
+        </div>
+    </div>
+    <!-- PROJECTS -->
+    <div class="projects container-fluid my-5 px-5">
+        <a href="ayana.html">
+            <div class="project row">
+                <div class="description col-5 pt-5 pl-5">
+                    <p class="tags" style="color: #BA80EF">UX | Mobile App Design | Iterative Design</p>
+                    <h2 class="mb-3">Ayana</h2>
+                    <p>An app that connects marginalized communities with the mental health care professionals that are right for them</p>
+                </div>
+                <div class="image-container col-7 d-flex justify-content-center align-items-center" style="background-color: #E4D8EF">
+                    <img class='image' 
+                        src='./images/Ayana_Home.png' alt="Ayana Mobile App Design"
+                        style="max-width: 100%; max-height: 25rem;"/>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="projects container-fluid my-5 px-5">
+        <a href="american-go-association.html">
+            <div class="project row">
+                <div class="description col-5 pt-5 pl-5">
+                    <p class="tags" style="color: #F3A100">UI Design | Frontend Development</p>
+                    <h2 class="mb-3" style="line-height: 0.95;">American Go Association</h2>
+                    <p>Redesigning the American Go Association’s official website into an accessible, responsive, and modern page</p>
+                </div>
+                <div class="image-container col-7  d-flex justify-content-center align-items-cente" style="background-color: #FEECC9">
+                    <img class='image' 
+                        src='./images/AGA-Redesign.png' alt="AGA Website Redesign" 
+                        style="max-width: 100%; max-height: 25rem;"/>
+                </div>
+            </div>
+        </a>
+    </div>
   </body>
 </html>
