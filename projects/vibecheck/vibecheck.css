@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../../fonts/lato-v17-latin/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../../fonts/lato-v17-latin/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Lato';
+}
+
+p {
+    color:rgb(77, 77, 77);
+    font-weight: 300;
+}
+
+li {
+    color:rgb(77, 77, 77);
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.row {
+    padding-left: 17.5rem;
+    padding-right: 17.5rem;
+}
+
+.grey {
+    background-color: rgb(248, 248, 248);
+}
+
+img {
+    max-height: 35rem;
+}
+
+.descr {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0, 0.75);
+}

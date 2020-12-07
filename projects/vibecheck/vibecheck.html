@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>VibeCheck</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="vibecheck.css">
+        <link rel="stylesheet" href="../../index.css">
+        <link rel="stylesheet" href="../../navbar.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top pt-3" style="background-color: white;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="../../home.html">MELISSA ZHANG</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-4"> 
+                        <a class="nav-link active" href="about.html">about<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pl-4"> 
+                        <a class="nav-link active" href="">projects<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pl-4"> 
+                        <a class="nav-link active" href="resume.html">resume<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex justify-content-center align-items-center mb-5" style="height: 25rem; background-color: rgb(231, 240, 240);">
+            <img src="images/vibecheck.png" alt="VibeCheck Logo" style="max-width: 100%";/>
+        </div>
+        <div class="row container-fluid">
+            <div>
+                <h2>VibeCheck</h2>
+                <p class="descr">
+                    Promote party safety on Brown's campus and beyond, by providing a way for students to 
+                    report assault and unacceptable conduct at events in a simple, accessible, and anonymous way.
+                </p>
+            </div>
+        </div>
+        <div class="row container-fluid pt-3 py-5">
+            <div class="col-4 px-0">
+                <h4>My Role:</h4>
+                <p>Full-stack Developer<br/>UI/UX Designer</p>
+            </div>
+            <div class="col-4 px-0">
+                <h4>Team:</h4>
+                <p>3 Developers</p>
+            </div>
+            <div class="col-4 px-0">
+                <h4>Tools:</h4>
+                <p>Figma, React Native, MariaDB</p>
+            </div>
+        </div>
+        <div class="row container-fluid grey pt-5 pb-4">
+            <div class="col-6 px-0 pr-4">
+                <h4>Challenge</h4>
+                <p>Students often feel unsafe at parties, but are too intimidated to report unacceptable conduct
+                    in formal ways. Hosting organizations such as fraternities and sports houses are not held responsible for their behavior.
+                </p>
+            </div>
+            <div class="col-6 px-0 pl-4">
+                <h4>Solution</h4>
+                <p>
+                    VibeCheck provides students with a simple, accessible way of anonymously reporting unacceptable behavior, and builds
+                    a public database of party safety feedback.
+                    The app targets organizations such as fraternities and sports houses, and incentivize hosts to promote safe conduct at 
+                    their events. 
+                </p>
+            </div>
+        </div>
+        <div class="row container-fluid pt-5">
+            <div class="col-6 d-flex justify-content-center">
+                <img src="images/Welcome.png"/>
+            </div>
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <p>Welcome</p>
+                    <p class="descr">
+                        To ensure full anonymity, the only user information recorded by VibeCheck is gender and class year to promote user trust.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row container-fluid pt-5">
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <p>Rate Event</p>
+                    <p class="descr">
+                        A simple 3-card rating system is optimized for easy access and use while attending events, even when users are intoxicated.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <img src="images/Rate.png"/>
+            </div>
+        </div>
+        <div class="row container-fluid pt-5">
+            <div class="col-6 d-flex justify-content-center">
+                <img src="images/Stats.png"/>
+            </div>
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <p>View Stats</p>
+                    <p class="descr">
+                        Users can review an organization's safety feedback over time, before choosing to attend a party.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row container-fluid pt-5">
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <p>Detailed Evaluation</p>
+                    <p class="descr">
+                        Users also have the option to submit more comprehensize feedback for an organization. 
+                        Responses in detailed evaluations are reviewed by a third party health organization at Brown,
+                        such as BWell.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <img src="images/Eval.png"/>
+            </div>
+        </div>
+        <div class="row container-fluid grey mt-5 py-5">
+            <div>
+                <h4 class="pb-3">Reflection</h4>
+                <ul>
+                    <li>Development for this project is still ongoing, but I've already learned a lot!</li>
+                    <li>
+                        Designing for potentially intoxicated users pushed us to simplify designs as much as possible, which I think ended up 
+                        improving the product.
+                    </li>
+                    <li>
+                        Anonymity and information privacy were surprisingly difficult considerations to handle. We came across many ideas such as adding
+                        maps, real-time feedback, and public comments, which we then realized could reveal dangerous information if accessed by people 
+                        outside of the Brown community.
+                    </li>
+                    <li>
+                        I helped to design the database schemas for the project, and learned to use relational databases and MySQL!
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
