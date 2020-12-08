@@ -143,11 +143,17 @@ h5 {
 }
 
 .tags {
+    font-size: 1.1rem;
     font-weight: 700;
 }
 
 .description {
     padding-right: 6%;
+}
+
+.info {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -166,7 +172,7 @@ h5 {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .project {
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 9.5rem;
+        margin-right: 9.5rem;
     }
 }

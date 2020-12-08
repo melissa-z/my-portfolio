@@ -1,0 +1,56 @@
+body {
+    font-family: 'Lato';
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+h5 {
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+p {
+    color: rgb(78, 78, 78);
+}
+
+.intro-container {
+    background-color: #EDF4EF;
+    height: 100vh;
+}
+
+.highlight {
+    font-weight: 700;
+    /* color: #2c2c2c; */
+}
+
+.profile-image {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 80%;
+}
+
+.navbar-background {
+    background-color: #EDF4EF;
+    position: absolute;
+    top: 0;
+    height: 10rem;
+    width: 100vw;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 80%;
+}
