@@ -101,12 +101,19 @@ a, a:hover {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 2rem;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 { font-size: 4rem; }
 }
 
 h2 {
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+@media (min-width: 992px) {
+    h2 { font-size: 3rem; }
 }
 
 h5 {
@@ -133,8 +140,8 @@ h5 {
     background-color: #EDF4EF;
     position: absolute;
     top: 0;
-    height: 10rem;
     width: 100vw;
+    height: 6rem;
 }
 
 .project {
@@ -152,8 +159,11 @@ h5 {
 }
 
 .info {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
+}
+@media (min-width: 992px) {
+    .info { font-size: 1.2rem; }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -164,15 +174,21 @@ h5 {
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    
-}
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .navbar-background {
+        height: 6rem;
+    }
     .project {
         margin-left: 9.5rem;
         margin-right: 9.5rem;
     }
+}
+
+.image-1 {
+    max-height: 10rem;
+    max-width: 100%;
+}
+@media (min-width: 992px) {
+    .image-1 { max-height: 25rem; }
 }

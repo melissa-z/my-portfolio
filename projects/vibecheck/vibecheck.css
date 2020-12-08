@@ -23,8 +23,11 @@ li {
 }
 
 .row {
-    padding-left: 17.5rem;
-    padding-right: 17.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+@media (min-width: 992px) {
+    .row{ padding-left: 17.5rem; padding-right: 17.5rem; }
 }
 
 .grey {
@@ -36,6 +39,9 @@ img {
 }
 
 .descr {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(0, 0, 0, 0.75);
+}
+@media (min-width: 992px) {
+    .descr{ font-size: 1.5rem }
 }

@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="american-go-asssociation.css">
         <link rel="stylesheet" href="../../index.css">
         <link rel="stylesheet" href="../../navbar.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
 
@@ -36,7 +38,7 @@
         <div class="contents-wrapper">
         <div class="container-fluid px-5 py-5 grey">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12 pb-3">
                     <h3>Introduction</h3>
                     <p> Go is an ancient board game, and one of my favorite games of all time. It's a game of strategy and intellect with endless complexity and depth. 
                         I love playing the game, and each year I participate in various events hosted by 
@@ -47,18 +49,18 @@
                         Visit AGA's current website
                     </button>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <img src="images/AGAWebsite.png"/>
                 </div>
             </div>
         </div>
         <div class="container-fluid px-5 py-5">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <h3>Analyzing Design</h3>
                     <p> To better understand how to improve the page, I analyzed the website based on 3 metrics: <b>usability, learnability, and memorability</b>.</p>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <img src="images/DesignIssues.png"/>
                 </div>
             </div>
@@ -68,12 +70,12 @@
                 <div class="col-2">
                     <h3>Accessibility</h3>
                 </div>
-                <div class="col-5 px-5">
+                <div class="col-lg-5 col-sm-12 px-lg-5">
                     <p> Using WebAIM WAVE to analyze the original website, I found that various images are missing alternative text, 
                         forms are missing labels, and a few skip links are broken. There are also large blocks of justified text, 
                         which reduces readability. Overall, the website can be made much more accessible.</p>
                 </div>
-                <div class="col-5 px-5">
+                <div class="col-lg-5 col-sm-12 px-lg-5">
                     <p> Using VoiceOver to test screenreader accessibility on the original website, I found that many words were
                         repeated over and over by the screenreader, due to the repetitiveness of some menu items. Also, since sections on the page aren't 
                         very distinct or organized, it was difficult to navigate around with a screenreader.</p>
@@ -82,8 +84,8 @@
         </div>
 
         <!-- WIREFRAMES -->
-        <div class="container-fluid pl-5 pr-0 py-5 grey">
-            <div class="col-7 pr-3">
+        <div class="container-fluid pl-lg-5 pr-0 py-5 grey">
+            <div class="col-lg-7 col-sm-12 pr-3">
                 <h3>Low-fidelity Prototyping</h3>
                 <p> First, I designed 3 low-fidelity prototypes of the website, one for each of mobile, tablet, and desktop screen sizes. 
                     These wireframes aim to create an intuitive information layout, and address existing design issues.</p>
@@ -94,31 +96,31 @@
                 <div class="col-2" style="text-align: right">
                     <h3>Desktop</h3>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-sm-12">
                     <img class="pb-5" src="images/Lowfi1.png"/>
                 </div>
             </div>
             <div class="row">
-                <div class="col-2" style="text-align: right">
+                <div class="col-lg-2 col-sm-12" style="text-align: right">
                     <h3>Tablet</h3>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-sm-12">
                     <img class="pb-5" src="images/Lowfi2.png"/>
                 </div>
             </div>
             <div class="row">
-                <div class="col-2" style="text-align: right">
+                <div class="col-lg-2 col-sm-12" style="text-align: right">
                     <h3>Mobile</h3>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-sm-12">
                     <img class="pb-5" src="images/Lowfi3.png"/>
                 </div>
             </div>
         </div>
 
         <!-- HI-FI PROTOTYPES -->
-        <div class="container-fluid pl-5 pr-0 py-5 grey">
-            <div class="col-7 pr-3">
+        <div class="container-fluid pl-lg-5 pr-0 py-5 grey">
+            <div class="col-lg-7 col-sm-12 pr-3">
                 <h3>High-fidelity Prototyping</h3>
                 <p> Based on the wireframes, I created 3 high-fidelity prototypes of my new AGA website, again one for each of mobile, tablet, and desktop 
                         screen sizes.</p>
@@ -129,23 +131,23 @@
                 <div class="col-2" style="text-align: right">
                     <h3>Desktop</h3>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-sm-12">
                     <img class="pb-5" src="images/Desktop.png"/>
                 </div>
             </div>
             <div class="row">
-                <div class="col-2" style="text-align: right">
+                <div class="col-lg-2 col-sm-12" style="text-align: right">
                     <h3>Tablet</h3>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-sm-12">
                     <img class="pb-5" src="images/Tablet.png"/>
                 </div>
             </div>
             <div class="row">
-                <div class="col-2" style="text-align: right">
+                <div class="col-lg-2 col-sm-12" style="text-align: right">
                     <h3>Mobile</h3>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-sm-12">
                     <img class="pb-5" src="images/Mobile.png"/>
                 </div>
             </div>
@@ -154,12 +156,12 @@
         <!-- STYLE GUIDE -->
         <div class="container-fluid px-5 py-5">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <h3>Visual Style Guide</h3>
                     <p>I also created a visual style guide that displays the main colors, typography, and 
                         different states of reusable components such as input fields and buttons.</p>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <img src="images/Stylesheet.png"/>
                 </div>
             </div>
@@ -168,7 +170,7 @@
         <!-- FINAL RESULTS -->
         <div class="container-fluid px-5 py-5 grey">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12 mb-3">
                     <h3>Final Redesign</h3>
                     <p>Based on my prototypes, I created a new page for the American Go Association using HTML and CSS. 
                         Here are the final results!
@@ -177,19 +179,19 @@
                         Visit my redesigned website
                     </button>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <img src="images/Redesign.png"/>
                 </div>
             </div>
         </div>
         <div class="container-fluid px-5 py-5">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12 mb-3">
                     <button type="button" class="btn btn-info" onclick="window.location.href='https://www.usgo.org'">
                         Visit AGA's current website
                     </button>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <img src="images/AGAWebsite.png"/>
                 </div>
             </div>
@@ -199,12 +201,12 @@
                 <div class="col-2">
                     <h3>Conclusion</h3>
                 </div>
-                <div class="col-5 px-5">
+                <div class="col-lg-5 col-sm-12 px-lg-5">
                     <p> Throughout this process, I continuously analyzed the responsiveness, accessibility, and usability of my redesign. 
                         The final product is responsive across all different screen sizes, including on desktops, tablets, and mobile devices. 
                         The redesign also supports larger browser font sizes, staying clean and usable.</p>
                 </div>
-                <div class="col-5 px-5">
+                <div class="col-lg-5 col-sm-12 px-lg-5">
                     <p> Using WebAIM WAVE to analyze the final redesign’s accessibility, I found that almost all previous issues, 
                         such as missing alternative text and redundant links, have been solved, and ARIA labels are present throughout the page. Overall, 
                         the design has greatly improved accessibility.</p>
